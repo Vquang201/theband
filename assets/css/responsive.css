@@ -1,0 +1,93 @@
+/*PC*/
+@media (min-width : 64em){ 
+    .menu-btn{
+        display: none;
+    }
+
+}
+
+/*Tablet*/
+@media (min-width : 46.25em) and (max-width :64em){
+    .menu-btn{
+        display: none;
+    }
+
+}
+
+/*Tablet && mobile*/
+@media (max-width : 64em){
+    .set-btn{  /*Để set button ra hết màn hình điện thoại*/
+        width: 100%;
+        text-align: center;
+        padding: 14px 16px;
+    }
+
+    #footer .socials-list a {
+        padding: 5px 5px;
+    }
+    
+    #footer .copyright a {
+        padding: 12px 2px;
+    }
+}
+
+/*Moblie*/
+@media (max-width : 46.1875em){
+    /*common*/
+    .s-col-full{
+        width: 100% !important;
+    } 
+
+    #header{
+        overflow: hidden;
+    }
+
+    #header .search-btn{
+        display: none;
+    }
+
+    #header{
+        overflow: hidden;
+    }
+
+    #nav {
+        display: block;
+    } 
+
+    #nav li{
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    
+    .menu-btn{
+        position: absolute;
+        top : 0 ;
+        right: 0;
+    }
+    
+    #content .band-img{
+        border-radius: 9px;
+        width: 254px;
+    }
+
+    #content .member-name{
+        margin-bottom: 15px;
+        margin-top: 31px;
+    }
+
+    .tour-list .tour-item{
+        margin-bottom: 16px;
+    }
+
+    .contact-info{
+        font-size: 16px;
+        line-height: 1.5;
+        margin-left: 9px;
+    }
+    
+  
+}
